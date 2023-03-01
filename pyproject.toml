@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "st_df_extension"
+version = "0.1.0"
+description = "Extension of st.experimental_data_editor with advanced data-frame filtering."
+authors = ["elias <elias@wastelabs.co>"]
+readme = "README.md"
+packages = [{include = "st_df_extension"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.19.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
